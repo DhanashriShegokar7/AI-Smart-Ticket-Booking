@@ -1,0 +1,96 @@
+.seat-page {
+  min-height: calc(100vh - 70px);
+  padding: 40px 20px;
+  background: #f4f7fb;
+  text-align: center;
+}
+
+.seat-page h1 {
+  margin-bottom: 25px;
+}
+
+.journey-info {
+  background: white;
+  max-width: 600px;
+  margin: 0 auto 30px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.seat-layout {
+  background: white;
+  max-width: 500px;
+  margin: auto;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.driver {
+  background: #ddd;
+  padding: 12px;
+  margin-bottom: 25px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.seats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
+.seat {
+  padding: 15px 5px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.seat.available {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.seat.selected {
+  background: #2563eb;
+  color: white;
+}
+
+.seat.booked {
+  background: #fecaca;
+  color: #991b1b;
+  cursor: not-allowed;
+}
+
+.seat-legend {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin: 25px 0;
+}
+
+.selection-summary {
+  background: white;
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.selection-summary button {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 6px;
+  background: #2563eb;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.selection-summary button:disabled {
+  background: #aaa;
+  cursor: not-allowed;
+}

@@ -1,0 +1,79 @@
+.passenger-page {
+  min-height: calc(100vh - 70px);
+  padding: 40px 20px;
+  background: #f4f7fb;
+}
+
+.passenger-container {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.passenger-container h1 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.booking-info {
+  background: #f4f7fb;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+.booking-info h2 {
+  margin-top: 0;
+}
+
+.booking-info p {
+  margin: 8px 0;
+}
+
+.passenger-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-field label {
+  font-weight: bold;
+}
+
+.form-field input,
+.form-field select {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.passenger-container form button {
+  padding: 13px;
+  border: none;
+  border-radius: 6px;
+  background: #2563eb;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.passenger-container form button:disabled {
+  background: #aaa;
+  cursor: not-allowed;
+}
+
+.booking-message {
+  text-align: center;
+  color: #dc2626;
+  font-weight: bold;
+}

@@ -1,0 +1,78 @@
+.results-page {
+  min-height: calc(100vh - 70px);
+  padding: 50px 30px;
+  background: #f4f7fb;
+}
+
+.results-page > h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.results-page > p {
+  text-align: center;
+  color: #666;
+  margin-bottom: 35px;
+}
+
+.tickets-container {
+  max-width: 900px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.ticket-card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.ticket-card h2 {
+  margin-bottom: 5px;
+}
+
+.ticket-card p {
+  color: #666;
+}
+
+.ticket-time {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 25px 0;
+}
+
+.ticket-time div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.ticket-time span {
+  font-size: 13px;
+  color: #777;
+}
+
+.ticket-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+}
+
+.ticket-bottom h3 {
+  font-size: 22px;
+}
+
+.ticket-bottom button {
+  padding: 10px 25px;
+  border: none;
+  border-radius: 6px;
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+}

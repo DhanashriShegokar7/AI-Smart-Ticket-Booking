@@ -1,0 +1,107 @@
+.booking-success-page {
+  min-height: calc(100vh - 70px);
+  padding: 40px 20px;
+  background: #f4f7fb;
+  display: flex;
+  justify-content: center;
+}
+
+.success-container {
+  width: 100%;
+  max-width: 650px;
+  text-align: center;
+}
+
+.success-icon {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto 15px;
+  border-radius: 50%;
+  background: #16a34a;
+  color: white;
+  font-size: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.success-container h1 {
+  margin-bottom: 8px;
+}
+
+.success-text {
+  color: #555;
+  margin-bottom: 25px;
+}
+
+.booking-card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  text-align: left;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.booking-card h2 {
+  margin-bottom: 8px;
+}
+
+.booking-card hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 20px 0;
+}
+
+.booking-detail {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.confirmed {
+  color: #16a34a;
+  text-transform: capitalize;
+}
+
+.success-actions {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 25px;
+}
+
+.success-actions button,
+.success-container button {
+  padding: 12px 22px;
+  border: none;
+  border-radius: 6px;
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.qr-section {
+  margin-top: 25px;
+  padding: 25px;
+  background: white;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.qr-section h2 {
+  margin-bottom: 20px;
+}
+
+.qr-section canvas {
+  margin: auto;
+  display: block;
+}
+
+.qr-section p {
+  margin-top: 15px;
+  color: #666;
+  font-size: 14px;
+}
